@@ -6,7 +6,7 @@ class Program
 {
     static async Task Main(string[] args)
     {
-        var ServiceUri = "https://localhost:7249";
+        var ServiceUri = "https://localhost:41532";
 
         var service = new FriendsHttpService(new Uri(ServiceUri));
 
